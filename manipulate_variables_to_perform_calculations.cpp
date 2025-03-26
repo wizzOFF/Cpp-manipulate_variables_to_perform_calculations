@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include <string>
 using namespace std;
@@ -16,6 +16,24 @@ int main()
     getline(cin, nomUtilisateur); //On remplit cette case avec toute la ligne que l'utilisateur a écrit
      
     cout << "Vous vous appelez " << nomUtilisateur << " et vous pensez que pi vaut " << piUtilisateur << "." << endl;
+
+    return 0;
+}
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a(4), b(5); //Déclaration de deux variables
+
+    cout << "a vaut : " << a << " et b vaut : " << b << endl;
+
+    cout << "Affectation !" << endl;
+    a = b; //Affectation de la valeur de 'b' à 'a'.
+
+    cout << "a vaut : " << a << " et b vaut : " << b << endl;
 
     return 0;
 }
