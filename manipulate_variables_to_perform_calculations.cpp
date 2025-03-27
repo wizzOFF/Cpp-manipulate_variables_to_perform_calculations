@@ -45,8 +45,12 @@ using namespace std;
 int main()  
 {
   int resultat(0), a(5), b(8);
-  
+
   int const nombreNiveaux(10);
+
+  string const motDePasse("wAsTZsaswQ"); //Le mot de passe secret
+  double const pi(3.14);
+  unsigned int const pointsDeVieMaximum(100); //Le nombre maximal de points de vie
 
   resultat = a + b;
 
